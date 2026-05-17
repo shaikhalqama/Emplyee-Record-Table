@@ -1,16 +1,17 @@
 #include <iostream>
 #include <iomanip>
+#include <string>
 using namespace std;
 
 int main() {
-    char aa[20];
+    string aa;
     int bb;
     double cc;
-    int dd;
+    long long dd;
     int ee;
-    cout << "*----------------------*  "
-         << "Hello Sir/Ma'am   *--------------------*  \n\nGood Morning/Good Afternoon:\n\n ";
-    string names[] = {"John", "Rashid", "Bob", "Alice", "Maxwell", "Rahul", "Emma", "Henry", "Ali", "sharma", "priya", "xing lee", "eren", "Kiran", "leo"};
+    cout << "*-----------------------------------------------------*  "
+         << "Hello Sir/Ma'am   *----------------------------------------------------*  \n\nGood Morning/Good Afternoon:\n\n ";
+    string names[] = {"ALQAMA", "Rashid", "Bob", "Alice", "Maxwell", "Rahul", "Emma", "Henry", "Ali", "sharma", "priya", "xing lee", "eren", "Kiran", "leo"};
     int ages[] = {36, 30, 22, 28, 18, 32, 25, 31, 28, 40, 19, 29, 22, 19, 39};
     double salaries[] = {150000.0, 60000.0, 45000.0, 70000.0, 15000.0, 25000.0, 15000.0, 18000.0, 20000.0, 85000.0, 15000.0, 25000.0, 25000.0, 15000.0, 49999.0};
     long long phoneNumbers[] = {1234567890, 9876543210, 4567890123, 8765432109, 9876543211, 9876543210, 9874561478, 1244578956, 6875412699, 8475129644, 1472583695, 9638527407, 1597532179, 7539514628, 9987415262};
@@ -25,7 +26,8 @@ int main() {
     cout << "(5) Delete Employee \n\n";
     cout << "(6)About Us\n\n";
     cout << "(7)Exit\n";
-    cout << "\n\n*----------(Please select the option given above!!)----------*\n";
+    cout << "\n\n*-------------------------------( Write a Number Please to select the option given above!!)------------------------------------------*\n";
+    
      while (!exitprogram) {
         cin >> choice;
         switch (choice) {
@@ -105,12 +107,12 @@ cout<<"please enter the  new details of employee (Name, Age, Salary, Phone No., 
       break;
             case 6:
                 cout <<"What Do You Want To Read About Us??"
-        <<"\n\nThis Program Is of Employee Record Systemulator Built By C++ Language It Only Took Us 7 Hours To Code In The Hope Securing 25 Marks In C++ Project Conducted By ['Deepa Maam']...  (Now If You Are Interested You Can Pay Me Later I will Personally Give You My Source Code LoL)\n\n(~)\n\n"<<"        ****  THANK YOU!!  **** "<<endl;
+        <<"\n\nThis Program Is of Employee Record Systemulator Built By C++ Language It Only Took Us 7 Hours To Code In The Hope Securing 25 Marks In C++ Project Conducted By ['Deepa Maam']...  (Now If You Are Interested You Can Pay Me Later I will Personally Give You My Source Code LoL)\n\n ;)""\n\n"<<"        ****  THANK YOU!!  **** "<<endl;
 break;
 
             case 7:
                 cout << "\n**THIS PROJECT IS MADE BY:\n\n"
-                     << "1.Shaikh Alqama---(Leader)\n2.Abdul Kabeer---(Vicecoder)\n3.Sayyed Ali---(Lost & Never Found)\n4.Anil Yadav---(Member) \n5.Jitender Yadav---(Member) \n6.Kazi Yunus---(Member)\n\n('-')" << endl;
+                     << "[ 1.Shaikh Alqama---(Leader) ]\n2.[ Abdul Kabeer---(Contributer) ]\n\n('-')" << endl;
                      
             cout << "\n*------------------------* Thank You!! *--------------------------*"; 
                 exitprogram = true;
